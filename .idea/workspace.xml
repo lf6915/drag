@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demol.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demol.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demol.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3147482">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="9" selection-end-column="24" />
+            <state vertical-scroll-proportion="-6.617647">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="de.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="de.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/de.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.63559324">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
               <folding>
                 <element signature="e#0#37#0" expanded="false" />
               </folding>
@@ -82,11 +82,11 @@
         <option value="$PROJECT_DIR$/sdfs.java" />
         <option value="$PROJECT_DIR$/.idea/aaa.html" />
         <option value="$PROJECT_DIR$/ssss.html" />
-        <option value="$PROJECT_DIR$/de.js" />
         <option value="$PROJECT_DIR$/js.js" />
         <option value="$PROJECT_DIR$/css.css" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/demol.html" />
+        <option value="$PROJECT_DIR$/de.js" />
       </list>
     </option>
   </component>
@@ -219,7 +219,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09037037" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -260,16 +260,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/de.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.088235">
@@ -280,9 +270,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demol.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3147482">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="9" selection-end-column="24" />
+        <state vertical-scroll-proportion="-6.617647">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/de.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63559324">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
