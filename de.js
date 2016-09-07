@@ -21,7 +21,7 @@ window.onload=function()
         {
             document.onmousemove=null;
             document.onmouseup=null;
-            oDiv.releaseCapture&&oDiv.releaseCapture();
+           
         };
         oDiv.setCapture&&oDiv.setCapture();
         return false;
