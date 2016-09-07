@@ -3,8 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>lf</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        #box{
+            width:100px;
+            height:100px;
+            background:red;
+            position:absolute;
+            left:100px;
+            top:100px;
+        }
+    </style>
+    <script>
+        window.onload=function()
+        {
+            var oDiv=document.getElementById('box');
+            oDiv.onmousedown=function(ev)
+            {
+                var oEvent=ev||event;
+                var disX=oEvent.clientX-oDiv.offsetLeft;
+                var disY=oEvent.clientY-oDiv.offsetTop;
+                document.onmouseover=function(ev)
+                {
+                    var oEvent=ev||event;
+                    var left=oEvent.clientX-disX;
+                    var top=oEvent.clientY-disY;
+                    oDiv.style.left=left+'px';
+                    oDiv.style.top=top+'px';
+                };
+                document.onmouseup=function()
+                {
+                    document.onmousemove=null;
+                    document.onmouseup=null;
+                    oDiv.releaseCapture&&oDiv.releaseCapture();
+                };
+                oDiv.setCapture&&oDiv.setCapture();
+                return false;
+            };
+        };
+    </script>
 </head>
 <body>
-
+    <div id="box"></div>
 </body>
 </html>
